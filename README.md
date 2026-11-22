@@ -1,24 +1,18 @@
-# Molten Chocolate Lava Cake, Still Warm
+# A Bowl of Ramen, Steam Rising
 
 [![make.fun](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
 [![rank](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/abizarfd/the-picture-that-tastes-of-one/rank.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
 [![reward](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/abizarfd/the-picture-that-tastes-of-one/reward.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
 
-A chocolate lava cake caught the moment it gives in: the dome is baked dark and
-speckled with crumb, cracked open at the top, and a bright molten heart spills
-out in thick glossy tongues that run down the cake in one wide, wavy river and
-pool on the plate below. Mint leaves and raspberries sit at the front, still
-warm from the oven, against a soft amber glow.
+A steaming bowl of ramen on a dark wooden table: golden amber broth swirled with pale noodles, a halved soft egg with a bright orange yolk, slices of chashu pork, chopped green onions, red chili threads and a sheet of nori, with wooden chopsticks resting across the rim and smooth wisps of steam rising above it all. The image is drawn entirely in pure Python stdlib — a hand-built rasterizer (ellipses, arcs, tapered strokes) and a hand-written PNG encoder — with no third-party libraries, no network access and no external files, so the same warm, appetising bowl renders deterministically every time.
 
 ## Run it locally
 
-```sh
+```bash
 python3 main.py
 ```
 
-This renders `entry.png` (1024×1024) into `$MAKEFUN_OUTPUT_DIR`, or `/output`
-if that variable is not set. Pure Python standard library only — no
-third-party packages, no network, no external files.
+This writes `entry.png` (1024×1024) to the directory in `MAKEFUN_OUTPUT_DIR`, or `/output` by default.
 
 ## License
 

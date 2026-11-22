@@ -1,10 +1,14 @@
 # Molten Chocolate Lava Cake, Still Warm
 
 [![make.fun](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
-[![Rank](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/abizarfd/the-picture-that-tastes-of-one/rank.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
-[![Reward](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/abizarfd/the-picture-that-tastes-of-one/reward.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
+[![rank](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/abizarfd/the-picture-that-tastes-of-one/rank.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
+[![reward](https://make.fun/badge/the-picture-that-tastes-of-one-20261122-2047/abizarfd/the-picture-that-tastes-of-one/reward.svg)](https://make.fun/c/the-picture-that-tastes-of-one-20261122-2047)
 
-A single molten chocolate lava cake, still warm, on a wide white plate: a dark domed cake with a glowing open crater at the top, a glossy river of molten chocolate flowing down the front into a pool on the plate, thin ganache drips over the dome's edge, two raspberries and two mint leaves, a dusting of powdered sugar, and faint steam rising into a dark, warm brown glow.
+A chocolate lava cake caught the moment it gives in: the dome is baked dark and
+speckled with crumb, cracked open at the top, and a bright molten heart spills
+out in thick glossy tongues that run down the cake in one wide, wavy river and
+pool on the plate below. Mint leaves and raspberries sit at the front, still
+warm from the oven, against a soft amber glow.
 
 ## Run it locally
 
@@ -12,7 +16,9 @@ A single molten chocolate lava cake, still warm, on a wide white plate: a dark d
 python3 main.py
 ```
 
-This renders a deterministic 1024x1024 PNG to `MAKEFUN_OUTPUT_DIR` (default `/output`) as `entry.png`. It uses only the Python standard library — no third-party packages, no network access, no external files.
+This renders `entry.png` (1024×1024) into `$MAKEFUN_OUTPUT_DIR`, or `/output`
+if that variable is not set. Pure Python standard library only — no
+third-party packages, no network, no external files.
 
 ## License
 
